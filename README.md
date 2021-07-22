@@ -1,2 +1,2 @@
-# Calculator
- Calculator using Django
+# Calculator &  VotingApp
+ Calculator &  VotingApp using Django
