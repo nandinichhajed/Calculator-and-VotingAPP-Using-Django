@@ -62,7 +62,9 @@
         {% endif %}
         <div class="row">
             <div class="col-md-6" style="margin: 1rem auto 0  auto;">
-                <img class="img-fluid" src="{% static 'main.jpg' %}">
+                <div class="text-center">
+                    <img src="{% static 'calculator.jpg' %}" class="rounded" alt="Responsive image">
+                </div>
                 <div class="card">
                     <div class="card-body">
                         <form method="GET" action="{% url 'submitquery'%}">
@@ -103,14 +105,14 @@
                 </p>
                 <hr>
                 <ul class="list-group">
-                    <li class="list-group-item">+ Additon</li>
-                    <li class="list-group-item">- Minus</li>
-                    <li class="list-group-item">* Multiplication</li>
-                    <li class="list-group-item">/ Division</li>
-                    <li class="list-group-item">// Floor Division</li>
-                    <li class="list-group-item">** Exponential</li>
-                    <li class="list-group-item">% Mod</li>
-                    <li class="list-group-item">( ) Parentheses</li>
+                    <li class="list-group-item"> +   Additon</li>
+                    <li class="list-group-item"> -   Substraction</li>
+                    <li class="list-group-item"> *   Multiplication</li>
+                    <li class="list-group-item"> /   Division</li>
+                    <li class="list-group-item"> //  Floor Division</li>
+                    <li class="list-group-item"> **  Exponential</li>
+                    <li class="list-group-item"> %   Mod</li>
+                    <li class="list-group-item"> ( ) Parentheses</li>
 
                 </ul>
             </div>
